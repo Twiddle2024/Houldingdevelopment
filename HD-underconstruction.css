@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.title {
+  z-index: 50;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: alternate 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+
 .body{
     position: absolute;
     top: 0;
@@ -106,7 +114,7 @@
   width: 45px; 
   height: 45px; 
   border-radius: 10%;
-  margin-right: 15px;
+  margin-right: 10px;
   } 
  
 .tiktok_icon { 
@@ -119,4 +127,39 @@
 .tiktok_border {
   top: 40px;
   left: 40px;
+}
+
+.yt_button { 
+  width: 45px; 
+  height: 45px; 
+  border-radius: 10%;
+  margin-right: 25px;
+  } 
+ 
+.yt_icon { 
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 68px; 
+  height: auto;
+} 
+
+.yt_border {
+  top: 40px;
+  left: 40px;
+}
+
+.legals1 {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 17px;
+  width: 100%;
+}
+
+.legals2 {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
