@@ -43,7 +43,7 @@
 
 .Social_Media_Group {
     position: fixed;
-    bottom: 3vw;
+    bottom: 6vw;
     right: 0;
     margin-bottom: 20px; 
     margin-right: 20px;
@@ -152,7 +152,7 @@
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 3vw;
+  bottom: 6vw;
   width: 100%;
 }
 
@@ -160,6 +160,6 @@
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 1vw;
+  bottom: 2vw;
   width: 100%;
 }
