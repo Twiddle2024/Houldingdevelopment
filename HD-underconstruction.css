@@ -54,13 +54,14 @@
   margin-right: 20px;
   background-color: white;
   border-radius: 50%;
-  width: 11vh;
-  height: 11vh;
+  width: 8vh;
+  height: 8vh;
 } 
 
 .twitter_icon { 
   padding: 2vh;
-  height: 11vh;
+  height: 8vh;
+
 } 
 
 .facebook_button { 
@@ -69,58 +70,59 @@
 } 
 
 .facebook_icon { 
-  height: 11vh;
+  height: 8vh;
 } 
 
 .linkedin_button { 
   background-color: white;
-  margin-left: 1vh;
-  width: 10vh;
-  height: 10vh;
-  border-radius: 10px;
+  width: 7vh;
+  height: 7vh;
+  border-radius: 7%;
   margin-right: 35px;
 } 
 
 .linkedin_icon { 
-  height: 11vh;
+  height: 8vh;
 } 
 
 .tiktok_button { 
   margin-right: 20px;
+  padding-top: 2vh;
 } 
 
 .tiktok_icon { 
-  height: 11vh;
+  height: 8vh;
 } 
 
 .yt_button { 
   margin-right: 20px;
+  padding-top: 2vh;
 } 
 
 .yt_icon { 
-  height: 11vh;
+  height: 8vh;
 } 
 
 .legals1 {
-  color: white;
+  color: rgba(255, 255, 255, 0.863);
   text-align: center;
   position: fixed;
-  bottom: 4.5vh;
+  bottom: 5vh;
   width: 100%;
 }
 
 .legals2 {
-  color: white;
+  color: rgba(255, 255, 255, 0.863);
   text-align: center;
   position: fixed;
-  bottom: 2.5vh;
+  bottom: 2.7vh;
   width: 100%;
 }
 
 .legals3 {
-  color: white;
+  color: rgba(255, 255, 255, 0.863);
   text-align: center;
   position: fixed;
-  bottom: 0.5vh;
+  bottom: 0.3vh;
   width: 100%;
 }
