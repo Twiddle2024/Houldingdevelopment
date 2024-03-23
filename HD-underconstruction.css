@@ -15,7 +15,7 @@
 .body{
     position: absolute;
     top: 0;
-	left: 0;
+  	left: 0;
     font-family: Roboto, Arial;
     z-index: 0;
 }
@@ -41,118 +41,71 @@
     z-index: 50;
 }
 
-.Social_Media_Group {
-    position: fixed;
-    bottom: 6vw;
-    right: 0;
-    margin-bottom: 20px; 
-    margin-right: 20px;
-    display: flex;
+.social_media_group {
+  position: fixed;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  left: 50%; /* Push the div from the left by 50% of the viewport width */
+  transform: translate(-50%, -50%); /* Centering trick */
 }
 
 .twitter_button { 
-  width: 50px; 
-  height: 50px; 
-  background-color: #ffffff; 
+  margin-right: 20px;
+  background-color: white;
   border-radius: 50%;
-  margin-right: 15px;
-  padding: 8px;
-  } 
- 
-.twitter_icon { 
-  width: 34px; 
-  height: auto;
+  width: 11vh;
+  height: 11vh;
 } 
 
-.twitter_border {
-  top: 40px;
-  left: 40px;
-}
+.twitter_icon { 
+  padding: 2vh;
+  height: 11vh;
+} 
 
 .facebook_button { 
-  margin-top: 1px;
-  margin-left: 1px;
-  width: 48px; 
-  height: 48px; 
-  border-radius: 50%;
-  margin-right: 15px;
-  } 
- 
-.facebook_icon { 
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 50px; 
-  height: auto;
+  padding-top: 2vh;
+  margin-right: 20px;
 } 
 
-.facebook_border {
-  top: 40px;
-  left: 40px;
-}
+.facebook_icon { 
+  height: 11vh;
+} 
 
 .linkedin_button { 
-  width: 45px; 
-  height: 45px; 
-  background-color: #ffffff; 
-  border-radius: 10%;
-  margin-right: 20px;
-  } 
- 
-.linkedin_icon { 
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 60px; 
-  height: auto;
+  background-color: white;
+  margin-left: 1vh;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin-right: 35px;
 } 
 
-.linkedin_border {
-  top: 40px;
-  left: 40px;
-}
+.linkedin_icon { 
+  height: 11vh;
+} 
 
 .tiktok_button { 
-  width: 45px; 
-  height: 45px; 
-  border-radius: 10%;
-  margin-right: 10px;
-  } 
- 
-.tiktok_icon { 
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 40px; 
-  height: auto;
+  margin-right: 20px;
 } 
 
-.tiktok_border {
-  top: 40px;
-  left: 40px;
-}
+.tiktok_icon { 
+  height: 11vh;
+} 
 
 .yt_button { 
-  width: 45px; 
-  height: 45px; 
-  border-radius: 10%;
-  margin-right: 25px;
-  } 
- 
-.yt_icon { 
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 68px; 
-  height: auto;
+  margin-right: 20px;
 } 
 
-.yt_border {
-  top: 40px;
-  left: 40px;
-}
+.yt_icon { 
+  height: 11vh;
+} 
 
 .legals1 {
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 6vw;
+  bottom: 4.5vh;
   width: 100%;
 }
 
@@ -160,6 +113,14 @@
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 2vw;
+  bottom: 2.5vh;
+  width: 100%;
+}
+
+.legals3 {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0.5vh;
   width: 100%;
 }
